@@ -13,7 +13,7 @@ const comparisons: Record<string, ComparisonData> = {
   native: {
     leftTitle: "Native UPI",
     leftItems: [
-      "Name and payment details are visible to everyone",
+      "Your name and payment details are visible to everyone",
       "Alerts and widgets require third-party tools",
       "No public creator page",
       "No memberships, perks, or exclusive content",
@@ -23,8 +23,8 @@ const comparisons: Record<string, ComparisonData> = {
     rightItems: [
       "Fully anonymous payments",
       "Built-in alerts and live widgets",
-      "Creator page with goals, memberships, and perks",
-      "Monthly memberships & exclusive content",
+      "Public creator page with goals, memberships, and perks",
+      "Support for monthly memberships & exclusive content",
       "Public API for custom integrations",
     ],
   },
@@ -127,8 +127,8 @@ export default function ComparisonSection() {
 
   return (
     <section className="w-full max-w-6xl mx-auto px-4 pb-24 md:pb-32">
-      <h2 className="tracking-tight text-3xl md:text-5xl font-bold text-black mb-12">
-        Why creators prefer us
+      <h2 className="text-3xl md:text-5xl font-bold text-black mb-12">
+        How we are different:
       </h2>
 
       <div className="flex flex-col md:flex-row border border-gray-200 rounded-3xl overflow-hidden shadow-sm">
