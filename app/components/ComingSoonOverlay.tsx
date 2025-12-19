@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const ENABLE_COMING_SOON = true;
+const ENABLE_COMING_SOON = true
 
 export default function ComingSoonOverlay() {
   const [isVisible, setIsVisible] = useState(false);
@@ -37,9 +37,9 @@ export default function ComingSoonOverlay() {
         }`}
       />
 
-      <div className="absolute inset-0 flex items-center justify-center z-[101]">
+      <div className="absolute inset-0 flex items-center justify-center z-[101] px-4">
         <h1
-          className={`text-6xl md:text-8xl font-bold text-black tracking-tighter transition-all duration-700 transform ${
+          className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-black tracking-tighter transition-all duration-700 transform text-center ${
             showText
               ? "opacity-100 translate-y-0 scale-100"
               : "opacity-0 translate-y-10 scale-95"

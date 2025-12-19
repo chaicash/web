@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, DM_Sans, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import ComingSoonOverlay from "./components/ComingSoonOverlay";
@@ -26,8 +26,14 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
-  title: "chai.cash - Monetization made simple for Indians",
+  title: "Chai Cash",
   description: "Accept tips, offer memberships, and sell digital products to your audience with a fast, reliable, and creator-focused platform.",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 export default function RootLayout({
@@ -38,7 +44,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} ${dmSerif.variable} antialiased`}
+        className={`${dmSans.variable} ${geistMono.variable} ${dmSerif.variable} antialiased`}
+        style={{ fontFamily: 'var(--font-dm-sans)' }}
       >
         <ComingSoonOverlay />
         {children}
