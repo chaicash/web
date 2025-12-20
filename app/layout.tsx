@@ -46,6 +46,7 @@ export default function RootLayout({
       <body
         className={`${dmSans.variable} ${geistMono.variable} ${dmSerif.variable} antialiased`}
         style={{ fontFamily: 'var(--font-dm-sans)' }}
+        suppressHydrationWarning
       >
         <ComingSoonOverlay />
         {children}

@@ -35,27 +35,27 @@ export default function Home() {
         </div>
 
         <div className="hidden md:block absolute inset-0 z-10 pointer-events-none">
-          <div className="absolute top-[10%] left-[4%] md:left-[6%] lg:left-[8%] xl:left-[14%] -rotate-6 hover:scale-105 transition-transform animate-pop-in-delayed">
+          <div className="absolute top-[10%] left-[4%] md:left-[6%] lg:left-[8%] xl:left-[14%] macbook-air-left-1 -rotate-6 hover:scale-105 transition-transform animate-pop-in-delayed">
             <Image src="/left1.svg" alt="Autopay" width={260} height={260} className="drop-shadow-xl w-[180px] md:w-[200px] lg:w-[220px] xl:w-[260px]" />
           </div>
 
-          <div className="absolute top-[45%] left-[1%] md:left-[2%] lg:left-[3%] xl:left-[8%] rotate-3 hover:scale-105 transition-transform animate-pop-in-delayed">
+          <div className="absolute top-[45%] left-[1%] md:left-[2%] lg:left-[3%] xl:left-[8%] macbook-air-left-2 rotate-3 hover:scale-105 transition-transform animate-pop-in-delayed">
             <Image src="/left2.svg" alt="You sent" width={260} height={260} className="drop-shadow-xl w-[180px] md:w-[200px] lg:w-[220px] xl:w-[260px]" />
           </div>
 
-          <div className="absolute bottom-[10%] left-[4%] md:left-[6%] lg:left-[8%] xl:left-[14%] rotate-6 hover:scale-105 transition-transform animate-pop-in-delayed">
+          <div className="absolute bottom-[10%] left-[4%] md:left-[6%] lg:left-[8%] xl:left-[14%] macbook-air-left-3 rotate-6 hover:scale-105 transition-transform animate-pop-in-delayed">
             <Image src="/left3.svg" alt="Kax" width={240} height={240} className="drop-shadow-xl w-[160px] md:w-[180px] lg:w-[200px] xl:w-[240px]" />
           </div>
 
-          <div className="absolute top-[8%] right-[4%] md:right-[6%] lg:right-[8%] xl:right-[14%] rotate-3 hover:scale-105 transition-transform animate-pop-in-delayed">
+          <div className="absolute top-[8%] right-[4%] md:right-[6%] lg:right-[8%] xl:right-[14%] macbook-air-right-1 rotate-3 hover:scale-105 transition-transform animate-pop-in-delayed">
             <Image src="/right1.svg" alt="Donation" width={260} height={260} className="drop-shadow-xl w-[180px] md:w-[200px] lg:w-[220px] xl:w-[260px]" />
           </div>
 
-          <div className="absolute top-[45%] right-[1%] md:right-[2%] lg:right-[3%] xl:right-[8%] -rotate-3 hover:scale-105 transition-transform animate-pop-in-delayed">
+          <div className="absolute top-[45%] right-[1%] md:right-[2%] lg:right-[3%] xl:right-[8%] macbook-air-right-2 -rotate-3 hover:scale-105 transition-transform animate-pop-in-delayed">
             <Image src="/right2.svg" alt="Goal" width={240} height={240} className="drop-shadow-xl w-[160px] md:w-[180px] lg:w-[200px] xl:w-[240px]" />
           </div>
 
-          <div className="absolute bottom-[12%] right-[4%] md:right-[6%] lg:right-[8%] xl:right-[14%] -rotate-6 hover:scale-105 transition-transform animate-pop-in-delayed">
+          <div className="absolute bottom-[12%] right-[4%] md:right-[6%] lg:right-[8%] xl:right-[14%] macbook-air-right-3 -rotate-6 hover:scale-105 transition-transform animate-pop-in-delayed">
             <Image src="/right3.svg" alt="Unlock" width={240} height={240} className="drop-shadow-xl w-[160px] md:w-[180px] lg:w-[200px] xl:w-[240px]" />
           </div>
 

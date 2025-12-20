@@ -117,3 +117,30 @@ img {
 .animate-draw .path-draw {
   animation-play-state: running;
 }
+
+/* MacBook Air 13inch (1440x900) positioning adjustments */
+@media (min-width: 1280px) and (max-width: 1440px) and (min-height: 800px) and (max-height: 900px) {
+  .macbook-air-left-1 {
+    left: 0% !important;
+  }
+  
+  .macbook-air-left-2 {
+    left: -2% !important;
+  }
+  
+  .macbook-air-left-3 {
+    left: 0% !important;
+  }
+  
+  .macbook-air-right-1 {
+    right: 0% !important;
+  }
+  
+  .macbook-air-right-2 {
+    right: -2% !important;
+  }
+  
+  .macbook-air-right-3 {
+    right: 0% !important;
+  }
+}
